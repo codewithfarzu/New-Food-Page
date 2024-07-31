@@ -139,8 +139,8 @@ nav ul li a:hover{color: var(--yellow);}
 .wrap-3 .delight{font: 400 30px var(--pio);}
 .wrap-3 .images{margin-top: 67px;}
 .wrap-3 .image-1{position: relative;cursor: pointer; }
-.wrap-3 .images .inner{background: #000c; width: 247px; height: 236px; top: 33px; right: 10px; position: absolute; display: none;}
-.inner h4{font: 400 21px var(--ff); margin: 34px 0 34px 0; color: #fff;}
+.wrap-3 .images .inner{background: #000c; width: 230px; height: 228px; top: 36px; right: 34px; position: absolute; display: none;}
+.inner h4{font: 400 21px var(--ff); margin: 34px 0 20px 0; color: #fff;}
 .wrap-3 .inner p{ font: 400 41px var(--ff); color: #fff;margin-bottom: 18px;}
 .wrap-3 .inner .italian{ padding:9px 15px; font: 400 15px var(--ff);}
 .wrap-3 .image-1:hover .inner{ display:block;}
@@ -189,7 +189,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .col-4{ flex-basis: 33.33%; max-width: 33.33%;}
     .col-5{ flex-basis: 41.66%; max-width: 41.66%;}
     .col-6{ flex-basis: 50%; max-width: 50%;}
-    .col-7{ flex-basis: 58.33%; max-width: 58.33%;}
+    .col-7{ flex-basis: 58.33%; max-width: 58.33%;} 
     .col-8{ flex-basis: 66.66%; max-width: 66.66%;}
     .col-9{ flex-basis: 75%; max-width: 75%;}
     .col-10{ flex-basis: 83.33%; max-width: 83.33%;}
@@ -199,16 +199,17 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .food-order .social{margin-left: 4.6rem;}
     .foody h2{margin-top: 110px; font: 400 8rem var(--pio);}
     .foody p{margin-bottom: 35px;}
-    .wrap-1 .img-2{margin-left: 78px;}
+    .wrap-1 .img-2{margin-left: 78px; top: 0;}
     .wrap-1 .img-1{margin-left: 45px;}
     .wrap-2 .recipes{width: 475px; margin-left: 30px; }
-    .wrap-2 .col-7 img{width: 640px; margin-left: -12px;}
-    .wrap-3 .image-1 img{width: 260px; height: 275px;}
+    .wrap-2 .col-7 img{width: 632px; margin-left: -92px;}
+    .wrap-3 .image-1 img{width: 213px; height: 240px;}
     .wrap-3 .images .inner{width: 226px; height: 226px; top: 25px; right: 32px;}
     .wrap-3 .inner h4{margin: 28px 0 21px 0;}
-    .wrap-4 .drink-text, .wrap-4 .dessert-text{margin-left: -51px;}
-    .wrap-4 .main-img{margin-left: -119px;}
+    .wrap-4 .drink-text, .wrap-4 .dessert-text{margin-left: -72px;}
+    .wrap-4 .main-img{margin-left: -140px;}
     .nav-bar .btn {margin: 0 57px 0 0; background: none; border: 2px solid #fff; border-radius: 10px; color: var(--yellow); font-size: 17px; font-family: var(--myd); padding: 15px 26px;}
+    
 
     
 
@@ -244,6 +245,11 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .wrap-2 .col-5{display: flex; justify-content: center;}
     .wrap-2 .col-7{display: flex; justify-content: center;}
     .wrap-2 .col-7 img {margin: 17em 0 0 0; width: 570px; height: 454px;}
+    .wrap-3 .image-1 img{width: 365px; height: 365px;}
+    .wrap-3 .images .inner{width:270px; height: 270px; top: 50px; right: 70px;}
+    .wrap-3 .images .inner h4 {margin: 30px 0 30px 0;}
+    .wrap-3 .images .inner p {margin-bottom:30px;}
+
     .wrap-4{position: relative;}
     .wrap-4 .col-6, .wrap-4 .col-6{display: flex; justify-content: center;}
     .wrap-4 .drink-text{margin: 6rem 0 0 0; position: absolute;}
@@ -258,6 +264,7 @@ footer p{color: #fff; font-size: 15px; font-family: var(--ff); font-weight: 400;
     .wrap-6 .feed{text-align: center;}
     .sub{display: flex; justify-content: center}
     /* .wrap-6 .submit{;} */
+    .wrap-6 form input {padding: 23px 0 23px 23px; margin-bottom: 18px; font: 400 20px var(--ff);}
 
 
     
